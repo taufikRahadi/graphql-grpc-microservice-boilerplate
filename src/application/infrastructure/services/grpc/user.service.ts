@@ -3,7 +3,7 @@ import { GrpcMethod, RpcException } from "@nestjs/microservices";
 import { InjectRepository } from "@nestjs/typeorm";
 import { UserId } from "src/domain/interfaces/user.interface";
 import { UserDomain } from "src/domain/user.domain";
-import { isCanGetData } from "src/infrastructure/utils/check-arg";
+import { isCanGetData } from "src/resources/utils/check-arg";
 import { Repository } from "typeorm";
 
 @Controller()
